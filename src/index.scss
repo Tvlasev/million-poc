@@ -1,0 +1,14 @@
+@import "./styles/colors";
+@import "./styles/metrics";
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+body {
+  background-color: $default-background;
+  padding: 0 $default-home-page-side-padding;
+}
